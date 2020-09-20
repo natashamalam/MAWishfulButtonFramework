@@ -1,0 +1,6 @@
+framework module MAWishfulButtonFramework {
+  umbrella header "MAWishfulButtonFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}

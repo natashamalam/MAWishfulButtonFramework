@@ -1,0 +1,694 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		004D65B44BC48383C8465B065460F336 /* MAGradientBorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44C7622449B58DC7D2215FE1D662AD5 /* MAGradientBorderButton.swift */; };
+		0C1F8AB18C387262C83891D2BFCF1997 /* MASimpleCompositeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F484DCD4CCE89D85EE7671B08055D12E /* MASimpleCompositeButton.swift */; };
+		0D106D19B178836D63DB88BAAA75EA59 /* MAWishfulButtonFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C470A3C1AD7545E8578F15EC39B0F2C /* MAWishfulButtonFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		190528655D26B4E17719CD6D0A6118BB /* AnimationSuit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556D1ACEC5349531DF7C6C5035CAD01F /* AnimationSuit.swift */; };
+		2037A46EE06B6BADCA0ED0A34FB2F211 /* MACircularImageBaseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA02B55310533B6479169C48F0DD8CA /* MACircularImageBaseButton.swift */; };
+		2658624DD177364848D96D44528CC7BE /* MAGradientBackgroundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A5FEDFD232A7655B382CBE796CD80F /* MAGradientBackgroundButton.swift */; };
+		2A5099FA3136E1019198D7B2D54D9FB3 /* MAWishfulButtonFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F186B0F1C91BF8A4DEB10C0C0509BFB /* MAWishfulButtonFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		440B9F1519323E9CE37B5063781F610E /* MACompositeTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC1A297FCB2DB2BE466A75C23509BA9 /* MACompositeTitleLabel.swift */; };
+		45B566595A8F3BCFF2E71E600D966CE4 /* MAImageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AE3F8F0EAA099ACCB6F4C8FCFE26EE /* MAImageButton.swift */; };
+		4671D54B35FFA6DFE5D7F0ECFC1BB3B3 /* DefaultConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623BD7E42B6E11BD2804A0F1AD80712A /* DefaultConstants.swift */; };
+		58E987FCAAA7E108CBD75997288B931B /* Pods-SampleApplication-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D1C332329968AD3F4DD894B7BF52E5 /* Pods-SampleApplication-dummy.m */; };
+		623D842FD84EA03D01DDC452450092B0 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24554628A1F4659E169F8BE481D6F7A9 /* UIColorExtension.swift */; };
+		6954DF96B5724499C9219A2E3560DED5 /* MAWishfulAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D5F019B009A5811D380EB98A2C8A4E /* MAWishfulAnimations.swift */; };
+		705F0CDF01DA987595FFA71FD5E9C95C /* MASquareImageBaseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD64C4719472EF354DE82D74D89034D /* MASquareImageBaseButton.swift */; };
+		76315E3425CCED508B0D843CE9ED57F5 /* MAGradientCompositeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7312A910BAF6EEC5CDB45074ED181E /* MAGradientCompositeButton.swift */; };
+		891CF7D80FBCBEB49345302C9CA6CF12 /* Pods-SampleApplication-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E7C195B83527B417B72132B6A622C208 /* Pods-SampleApplication-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8EEF7E239D6B9D0148B30989B7A3AAA3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		8F2E775844876CCF6E8BB37B22D41E62 /* MAInnerBorderLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7E77EA62489836309049464A2452C1 /* MAInnerBorderLayer.swift */; };
+		9225A89726786FE1D701C9A17030CA18 /* MARectangularButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75028E0F87AC32F3D9ECD002E09347B3 /* MARectangularButton.swift */; };
+		B85CC4D6244E47C2846BFC597E3BEEF2 /* MACompositeBaseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D03754F5A7600DE3AE90A28A4EC3C3 /* MACompositeBaseButton.swift */; };
+		B9CDF587AB3878887AA21F727239F6B6 /* MAGradientBaseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160C7C2C0D949FE4BCF0B1EE48C77A37 /* MAGradientBaseButton.swift */; };
+		C3703B0508B6FA49D522856A60C8C566 /* MAWishfulBaseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E6064D2247B61D06DA69F510FA45BD /* MAWishfulBaseButton.swift */; };
+		E57C33580C6736432F5B4149ACD2A342 /* MAWishfulAdvancedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC77F8853453BDEC0E543E21A0046E4 /* MAWishfulAdvancedButton.swift */; };
+		E7374CE70F1B68BD902FC8EE1D22E76D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		F2F902DA132512F9FFCD016A1C89CA9D /* MAWishfulButtonFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 942D1CFB2987A137239B687AD4123821 /* MAWishfulButtonFramework-dummy.m */; };
+		F6F742BE29F9B3F7B483D266C2B41397 /* MAImageLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9C495188D0FA2365412CA76C45289E /* MAImageLayer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2C13C565BC6A2D7E27D2AB197EE2463 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6622D5DE936EE14D52E737A1608B0183;
+			remoteInfo = MAWishfulButtonFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02E3DD0871BA2CE18EB63CD0F9108929 /* MAWishfulButtonFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MAWishfulButtonFramework-prefix.pch"; sourceTree = "<group>"; };
+		0DDA85D85561BAE66EA5BFC45485F4FC /* MAWishfulButtonFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MAWishfulButtonFramework.debug.xcconfig; sourceTree = "<group>"; };
+		0F186B0F1C91BF8A4DEB10C0C0509BFB /* MAWishfulButtonFramework.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAWishfulButtonFramework.h; path = MAWishfulButtonFramework/MAWishfulButtonFramework.h; sourceTree = "<group>"; };
+		0FBB5E3A06366951D4439B2D23BB3962 /* Pods-SampleApplication-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SampleApplication-Info.plist"; sourceTree = "<group>"; };
+		14D03754F5A7600DE3AE90A28A4EC3C3 /* MACompositeBaseButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MACompositeBaseButton.swift; path = MAWishfulButtonFramework/MACompositeBaseButton.swift; sourceTree = "<group>"; };
+		160C7C2C0D949FE4BCF0B1EE48C77A37 /* MAGradientBaseButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MAGradientBaseButton.swift; path = MAWishfulButtonFramework/MAGradientBaseButton.swift; sourceTree = "<group>"; };
+		24554628A1F4659E169F8BE481D6F7A9 /* UIColorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColorExtension.swift; path = MAWishfulButtonFramework/UIColorExtension.swift; sourceTree = "<group>"; };
+		273AE11CC84DC4D99C8163E0FFFE8DBC /* MAWishfulButtonFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MAWishfulButtonFramework.release.xcconfig; sourceTree = "<group>"; };
+		305FCDF0C62D8B910FEED3461A60C984 /* Pods-SampleApplication.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SampleApplication.release.xcconfig"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		47E6064D2247B61D06DA69F510FA45BD /* MAWishfulBaseButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MAWishfulBaseButton.swift; path = MAWishfulButtonFramework/MAWishfulBaseButton.swift; sourceTree = "<group>"; };
+		48D5F019B009A5811D380EB98A2C8A4E /* MAWishfulAnimations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MAWishfulAnimations.swift; path = MAWishfulButtonFramework/MAWishfulAnimations.swift; sourceTree = "<group>"; };
+		4A9C495188D0FA2365412CA76C45289E /* MAImageLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MAImageLayer.swift; path = MAWishfulButtonFramework/MAImageLayer.swift; sourceTree = "<group>"; };
+		556D1ACEC5349531DF7C6C5035CAD01F /* AnimationSuit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimationSuit.swift; path = MAWishfulButtonFramework/AnimationSuit.swift; sourceTree = "<group>"; };
+		58595024132E45F7E508EF773D9A5CC3 /* MAWishfulButtonFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MAWishfulButtonFramework.framework; path = MAWishfulButtonFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		592968BB8D09B7F2752703DD664B282F /* Pods-SampleApplication.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SampleApplication.modulemap"; sourceTree = "<group>"; };
+		5C470A3C1AD7545E8578F15EC39B0F2C /* MAWishfulButtonFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MAWishfulButtonFramework-umbrella.h"; sourceTree = "<group>"; };
+		623BD7E42B6E11BD2804A0F1AD80712A /* DefaultConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultConstants.swift; path = MAWishfulButtonFramework/DefaultConstants.swift; sourceTree = "<group>"; };
+		6B7E77EA62489836309049464A2452C1 /* MAInnerBorderLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MAInnerBorderLayer.swift; path = MAWishfulButtonFramework/MAInnerBorderLayer.swift; sourceTree = "<group>"; };
+		6DD0355D2672BCB81DFCC63A4B78114C /* Pods-SampleApplication.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SampleApplication.debug.xcconfig"; sourceTree = "<group>"; };
+		75028E0F87AC32F3D9ECD002E09347B3 /* MARectangularButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MARectangularButton.swift; path = MAWishfulButtonFramework/MARectangularButton.swift; sourceTree = "<group>"; };
+		75AE3F8F0EAA099ACCB6F4C8FCFE26EE /* MAImageButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MAImageButton.swift; path = MAWishfulButtonFramework/MAImageButton.swift; sourceTree = "<group>"; };
+		7A7312A910BAF6EEC5CDB45074ED181E /* MAGradientCompositeButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MAGradientCompositeButton.swift; path = MAWishfulButtonFramework/MAGradientCompositeButton.swift; sourceTree = "<group>"; };
+		8CA02B55310533B6479169C48F0DD8CA /* MACircularImageBaseButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MACircularImageBaseButton.swift; path = MAWishfulButtonFramework/MACircularImageBaseButton.swift; sourceTree = "<group>"; };
+		942D1CFB2987A137239B687AD4123821 /* MAWishfulButtonFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MAWishfulButtonFramework-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AFD64C4719472EF354DE82D74D89034D /* MASquareImageBaseButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MASquareImageBaseButton.swift; path = MAWishfulButtonFramework/MASquareImageBaseButton.swift; sourceTree = "<group>"; };
+		B314FDA18F6EAF79D733B5FB68D4C963 /* Pods_SampleApplication.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SampleApplication.framework; path = "Pods-SampleApplication.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9A5FEDFD232A7655B382CBE796CD80F /* MAGradientBackgroundButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MAGradientBackgroundButton.swift; path = MAWishfulButtonFramework/MAGradientBackgroundButton.swift; sourceTree = "<group>"; };
+		D44C7622449B58DC7D2215FE1D662AD5 /* MAGradientBorderButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MAGradientBorderButton.swift; path = MAWishfulButtonFramework/MAGradientBorderButton.swift; sourceTree = "<group>"; };
+		DD624E6A1629210EDF577E5EF202B144 /* MAWishfulButtonFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MAWishfulButtonFramework.modulemap; sourceTree = "<group>"; };
+		DEC1A297FCB2DB2BE466A75C23509BA9 /* MACompositeTitleLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MACompositeTitleLabel.swift; path = MAWishfulButtonFramework/MACompositeTitleLabel.swift; sourceTree = "<group>"; };
+		E5CBCEA7060CDB8B74AE426E4E1B2F4C /* Pods-SampleApplication-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SampleApplication-acknowledgements.plist"; sourceTree = "<group>"; };
+		E7C195B83527B417B72132B6A622C208 /* Pods-SampleApplication-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SampleApplication-umbrella.h"; sourceTree = "<group>"; };
+		F1426A4096D4B5F6F27D819AD82D05C4 /* Pods-SampleApplication-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SampleApplication-frameworks.sh"; sourceTree = "<group>"; };
+		F3D1C332329968AD3F4DD894B7BF52E5 /* Pods-SampleApplication-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SampleApplication-dummy.m"; sourceTree = "<group>"; };
+		F479ABDB25A5F9F365F7017008B1E688 /* MAWishfulButtonFramework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MAWishfulButtonFramework.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F484DCD4CCE89D85EE7671B08055D12E /* MASimpleCompositeButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MASimpleCompositeButton.swift; path = MAWishfulButtonFramework/MASimpleCompositeButton.swift; sourceTree = "<group>"; };
+		FAC77F8853453BDEC0E543E21A0046E4 /* MAWishfulAdvancedButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MAWishfulAdvancedButton.swift; path = MAWishfulButtonFramework/MAWishfulAdvancedButton.swift; sourceTree = "<group>"; };
+		FD51F7FD436AD46308C19A8F189746C4 /* MAWishfulButtonFramework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MAWishfulButtonFramework-Info.plist"; sourceTree = "<group>"; };
+		FF973A22B4C41F3E55788CFF088C5320 /* Pods-SampleApplication-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SampleApplication-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC1A13AFA01E7DF6B5121B6356546746 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7374CE70F1B68BD902FC8EE1D22E76D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE0E658BFEC00F7E13E6C70FF1D580D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EEF7E239D6B9D0148B30989B7A3AAA3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41A0A9B837BD432EA1AD6F2E62B91461 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F479ABDB25A5F9F365F7017008B1E688 /* MAWishfulButtonFramework.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		4CC0FB57A140BFA867BC35EBFBDD255D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58595024132E45F7E508EF773D9A5CC3 /* MAWishfulButtonFramework.framework */,
+				B314FDA18F6EAF79D733B5FB68D4C963 /* Pods_SampleApplication.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5701566612747633B83B8B91EF68CCAD /* Pods-SampleApplication */ = {
+			isa = PBXGroup;
+			children = (
+				592968BB8D09B7F2752703DD664B282F /* Pods-SampleApplication.modulemap */,
+				FF973A22B4C41F3E55788CFF088C5320 /* Pods-SampleApplication-acknowledgements.markdown */,
+				E5CBCEA7060CDB8B74AE426E4E1B2F4C /* Pods-SampleApplication-acknowledgements.plist */,
+				F3D1C332329968AD3F4DD894B7BF52E5 /* Pods-SampleApplication-dummy.m */,
+				F1426A4096D4B5F6F27D819AD82D05C4 /* Pods-SampleApplication-frameworks.sh */,
+				0FBB5E3A06366951D4439B2D23BB3962 /* Pods-SampleApplication-Info.plist */,
+				E7C195B83527B417B72132B6A622C208 /* Pods-SampleApplication-umbrella.h */,
+				6DD0355D2672BCB81DFCC63A4B78114C /* Pods-SampleApplication.debug.xcconfig */,
+				305FCDF0C62D8B910FEED3461A60C984 /* Pods-SampleApplication.release.xcconfig */,
+			);
+			name = "Pods-SampleApplication";
+			path = "Target Support Files/Pods-SampleApplication";
+			sourceTree = "<group>";
+		};
+		7FDBE030EED3D9C05342B32916460369 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD624E6A1629210EDF577E5EF202B144 /* MAWishfulButtonFramework.modulemap */,
+				942D1CFB2987A137239B687AD4123821 /* MAWishfulButtonFramework-dummy.m */,
+				FD51F7FD436AD46308C19A8F189746C4 /* MAWishfulButtonFramework-Info.plist */,
+				02E3DD0871BA2CE18EB63CD0F9108929 /* MAWishfulButtonFramework-prefix.pch */,
+				5C470A3C1AD7545E8578F15EC39B0F2C /* MAWishfulButtonFramework-umbrella.h */,
+				0DDA85D85561BAE66EA5BFC45485F4FC /* MAWishfulButtonFramework.debug.xcconfig */,
+				273AE11CC84DC4D99C8163E0FFFE8DBC /* MAWishfulButtonFramework.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../SampleApplication/Pods/Target Support Files/MAWishfulButtonFramework";
+			sourceTree = "<group>";
+		};
+		9FA713FBB04892E8A9487A8D7F25BB0D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F3AB6B6FC30AC13733F7BD6570660DB5 /* MAWishfulButtonFramework */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C73EC07787058EB6538F56BE6A677C18 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5701566612747633B83B8B91EF68CCAD /* Pods-SampleApplication */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				9FA713FBB04892E8A9487A8D7F25BB0D /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				4CC0FB57A140BFA867BC35EBFBDD255D /* Products */,
+				C73EC07787058EB6538F56BE6A677C18 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3AB6B6FC30AC13733F7BD6570660DB5 /* MAWishfulButtonFramework */ = {
+			isa = PBXGroup;
+			children = (
+				556D1ACEC5349531DF7C6C5035CAD01F /* AnimationSuit.swift */,
+				623BD7E42B6E11BD2804A0F1AD80712A /* DefaultConstants.swift */,
+				8CA02B55310533B6479169C48F0DD8CA /* MACircularImageBaseButton.swift */,
+				14D03754F5A7600DE3AE90A28A4EC3C3 /* MACompositeBaseButton.swift */,
+				DEC1A297FCB2DB2BE466A75C23509BA9 /* MACompositeTitleLabel.swift */,
+				B9A5FEDFD232A7655B382CBE796CD80F /* MAGradientBackgroundButton.swift */,
+				160C7C2C0D949FE4BCF0B1EE48C77A37 /* MAGradientBaseButton.swift */,
+				D44C7622449B58DC7D2215FE1D662AD5 /* MAGradientBorderButton.swift */,
+				7A7312A910BAF6EEC5CDB45074ED181E /* MAGradientCompositeButton.swift */,
+				75AE3F8F0EAA099ACCB6F4C8FCFE26EE /* MAImageButton.swift */,
+				4A9C495188D0FA2365412CA76C45289E /* MAImageLayer.swift */,
+				6B7E77EA62489836309049464A2452C1 /* MAInnerBorderLayer.swift */,
+				75028E0F87AC32F3D9ECD002E09347B3 /* MARectangularButton.swift */,
+				F484DCD4CCE89D85EE7671B08055D12E /* MASimpleCompositeButton.swift */,
+				AFD64C4719472EF354DE82D74D89034D /* MASquareImageBaseButton.swift */,
+				FAC77F8853453BDEC0E543E21A0046E4 /* MAWishfulAdvancedButton.swift */,
+				48D5F019B009A5811D380EB98A2C8A4E /* MAWishfulAnimations.swift */,
+				47E6064D2247B61D06DA69F510FA45BD /* MAWishfulBaseButton.swift */,
+				0F186B0F1C91BF8A4DEB10C0C0509BFB /* MAWishfulButtonFramework.h */,
+				24554628A1F4659E169F8BE481D6F7A9 /* UIColorExtension.swift */,
+				41A0A9B837BD432EA1AD6F2E62B91461 /* Pod */,
+				7FDBE030EED3D9C05342B32916460369 /* Support Files */,
+			);
+			name = MAWishfulButtonFramework;
+			path = ../../MAWishfulButtonFramework;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AF9058249E7834F6367091238AC33558 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				891CF7D80FBCBEB49345302C9CA6CF12 /* Pods-SampleApplication-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5680A6DC2544A088A284A3FB9E8C61B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D106D19B178836D63DB88BAAA75EA59 /* MAWishfulButtonFramework-umbrella.h in Headers */,
+				2A5099FA3136E1019198D7B2D54D9FB3 /* MAWishfulButtonFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6622D5DE936EE14D52E737A1608B0183 /* MAWishfulButtonFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2123788D44218F6E07757C26447EA943 /* Build configuration list for PBXNativeTarget "MAWishfulButtonFramework" */;
+			buildPhases = (
+				E5680A6DC2544A088A284A3FB9E8C61B /* Headers */,
+				0378A108D8490CB1EDE1AD46D9E1698F /* Sources */,
+				BC1A13AFA01E7DF6B5121B6356546746 /* Frameworks */,
+				10F3326611F274966EDE18032B087337 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MAWishfulButtonFramework;
+			productName = MAWishfulButtonFramework;
+			productReference = 58595024132E45F7E508EF773D9A5CC3 /* MAWishfulButtonFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F81013A20D3D02D3D2E5BF9A7818547F /* Pods-SampleApplication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDEECED168C5A1F7CF9DF3F315BF06E1 /* Build configuration list for PBXNativeTarget "Pods-SampleApplication" */;
+			buildPhases = (
+				AF9058249E7834F6367091238AC33558 /* Headers */,
+				1254FA69BA7B5A76D716764B9D65A3C3 /* Sources */,
+				EE0E658BFEC00F7E13E6C70FF1D580D2 /* Frameworks */,
+				5B8688457934E0A4770E5B4B4A79CBEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A05068B71FC54F2B27AF3C13FF1B941D /* PBXTargetDependency */,
+			);
+			name = "Pods-SampleApplication";
+			productName = "Pods-SampleApplication";
+			productReference = B314FDA18F6EAF79D733B5FB68D4C963 /* Pods_SampleApplication.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 4CC0FB57A140BFA867BC35EBFBDD255D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6622D5DE936EE14D52E737A1608B0183 /* MAWishfulButtonFramework */,
+				F81013A20D3D02D3D2E5BF9A7818547F /* Pods-SampleApplication */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10F3326611F274966EDE18032B087337 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B8688457934E0A4770E5B4B4A79CBEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0378A108D8490CB1EDE1AD46D9E1698F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				190528655D26B4E17719CD6D0A6118BB /* AnimationSuit.swift in Sources */,
+				4671D54B35FFA6DFE5D7F0ECFC1BB3B3 /* DefaultConstants.swift in Sources */,
+				2037A46EE06B6BADCA0ED0A34FB2F211 /* MACircularImageBaseButton.swift in Sources */,
+				B85CC4D6244E47C2846BFC597E3BEEF2 /* MACompositeBaseButton.swift in Sources */,
+				440B9F1519323E9CE37B5063781F610E /* MACompositeTitleLabel.swift in Sources */,
+				2658624DD177364848D96D44528CC7BE /* MAGradientBackgroundButton.swift in Sources */,
+				B9CDF587AB3878887AA21F727239F6B6 /* MAGradientBaseButton.swift in Sources */,
+				004D65B44BC48383C8465B065460F336 /* MAGradientBorderButton.swift in Sources */,
+				76315E3425CCED508B0D843CE9ED57F5 /* MAGradientCompositeButton.swift in Sources */,
+				45B566595A8F3BCFF2E71E600D966CE4 /* MAImageButton.swift in Sources */,
+				F6F742BE29F9B3F7B483D266C2B41397 /* MAImageLayer.swift in Sources */,
+				8F2E775844876CCF6E8BB37B22D41E62 /* MAInnerBorderLayer.swift in Sources */,
+				9225A89726786FE1D701C9A17030CA18 /* MARectangularButton.swift in Sources */,
+				0C1F8AB18C387262C83891D2BFCF1997 /* MASimpleCompositeButton.swift in Sources */,
+				705F0CDF01DA987595FFA71FD5E9C95C /* MASquareImageBaseButton.swift in Sources */,
+				E57C33580C6736432F5B4149ACD2A342 /* MAWishfulAdvancedButton.swift in Sources */,
+				6954DF96B5724499C9219A2E3560DED5 /* MAWishfulAnimations.swift in Sources */,
+				C3703B0508B6FA49D522856A60C8C566 /* MAWishfulBaseButton.swift in Sources */,
+				F2F902DA132512F9FFCD016A1C89CA9D /* MAWishfulButtonFramework-dummy.m in Sources */,
+				623D842FD84EA03D01DDC452450092B0 /* UIColorExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1254FA69BA7B5A76D716764B9D65A3C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58E987FCAAA7E108CBD75997288B931B /* Pods-SampleApplication-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A05068B71FC54F2B27AF3C13FF1B941D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MAWishfulButtonFramework;
+			target = 6622D5DE936EE14D52E737A1608B0183 /* MAWishfulButtonFramework */;
+			targetProxy = D2C13C565BC6A2D7E27D2AB197EE2463 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8A3650F6C8AC2EFFA814EA61C37468B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9FD6CFF2A38AC9DCEF66C5BBFEE091BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DD0355D2672BCB81DFCC63A4B78114C /* Pods-SampleApplication.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SampleApplication/Pods-SampleApplication-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SampleApplication/Pods-SampleApplication.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AF1F8D2941B0228930706FA0F2C9BB78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B54343A6347790E53526DFDF869CA2E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 273AE11CC84DC4D99C8163E0FFFE8DBC /* MAWishfulButtonFramework.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MAWishfulButtonFramework/MAWishfulButtonFramework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MAWishfulButtonFramework/MAWishfulButtonFramework-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MAWishfulButtonFramework/MAWishfulButtonFramework.modulemap";
+				PRODUCT_MODULE_NAME = MAWishfulButtonFramework;
+				PRODUCT_NAME = MAWishfulButtonFramework;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CE4552BCDFF1C9E2B0157CB97EEFF8B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 305FCDF0C62D8B910FEED3461A60C984 /* Pods-SampleApplication.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SampleApplication/Pods-SampleApplication-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SampleApplication/Pods-SampleApplication.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FB6563551D154AECCA66CACECB8CEC00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DDA85D85561BAE66EA5BFC45485F4FC /* MAWishfulButtonFramework.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MAWishfulButtonFramework/MAWishfulButtonFramework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MAWishfulButtonFramework/MAWishfulButtonFramework-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MAWishfulButtonFramework/MAWishfulButtonFramework.modulemap";
+				PRODUCT_MODULE_NAME = MAWishfulButtonFramework;
+				PRODUCT_NAME = MAWishfulButtonFramework;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2123788D44218F6E07757C26447EA943 /* Build configuration list for PBXNativeTarget "MAWishfulButtonFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB6563551D154AECCA66CACECB8CEC00 /* Debug */,
+				B54343A6347790E53526DFDF869CA2E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A3650F6C8AC2EFFA814EA61C37468B1 /* Debug */,
+				AF1F8D2941B0228930706FA0F2C9BB78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDEECED168C5A1F7CF9DF3F315BF06E1 /* Build configuration list for PBXNativeTarget "Pods-SampleApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FD6CFF2A38AC9DCEF66C5BBFEE091BF /* Debug */,
+				CE4552BCDFF1C9E2B0157CB97EEFF8B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,16 @@
+PODS:
+  - MAWishfulButtonFramework (1.0.0)
+
+DEPENDENCIES:
+  - MAWishfulButtonFramework (from `../MAWishfulButtonFramework/`)
+
+EXTERNAL SOURCES:
+  MAWishfulButtonFramework:
+    :path: "../MAWishfulButtonFramework/"
+
+SPEC CHECKSUMS:
+  MAWishfulButtonFramework: 6360e3c0778813ffb3817efe0f4c393c87657ed0
+
+PODFILE CHECKSUM: ade18096390e17cae57e26434681a019fb3d66e1
+
+COCOAPODS: 1.9.3
