@@ -7,7 +7,27 @@ MAWishfulButtonFramework is a user friendly, easy to integrate Button generator 
  - *Swift 5.0*
 
 # Installation
- Download the folder named "MaWishfulButtonKit" and add it to the application by drag and dropping in it.
+
+##### Through CocoaPods
+
+Make sure CocoaPods is install in your machine. If not, open the terminal and type ```sudo gem install cocoapods```.
+
+Walk Through- 
+ - Open the Terminal
+ - Navigate to the app's project directory by typing ``cd [application directory]``
+ - Create a pod file with ``pod init``
+ - Open the pod file. To open in Xcode, type ``open Podfile -a Xcode``.
+ - In the Podfile, add following lines-
+ 
+ ``` 
+     target 'SampleApp' do
+        pod 'MAWishfulButtonFramework', '~> 1.0'
+     end
+ ```
+ - save and close it.
+ - Now type - ```pod install```
+ 
+ That should to the trick.
 
 # Button Categories
 ```
